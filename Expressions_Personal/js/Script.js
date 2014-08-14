@@ -25,3 +25,6 @@ var userFinance   = (expenseFloat - userIncomeAdj) * -1;
 savingsFloat = userSavings.toFixed(2);
 incomeadjFloat = userIncomeAdj.toFixed(2);
 financeFloat = userFinance.toFixed(2);
+console.log("The user will save $" + savingsFloat + " per month.");
+console.log("The users adjust monthly income is: $" + incomeadjFloat);
+console.log("The user will have a balance of:  $" + financeFloat + " after paying bills.");
