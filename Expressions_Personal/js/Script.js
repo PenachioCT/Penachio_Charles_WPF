@@ -13,6 +13,7 @@ alert("Hello, " + userName + ".  \nLet's calculate your monthly income and expen
 var userIncome   = prompt("Please enter your monthly income (in dollars):");    //asks user for their monthly income and saves the input
 var userExpenses = prompt("Please enter your monthly expenses (in dollars):");  //asks user for their monthly expense and save the input
 var userPercent  = prompt("Please enter a percentage of your monthly income you would like to put into savings:");  //asks user for a percentage they would like to save of their monthly income
+
 incomeFloat = parseFloat(userIncome).toFixed(2);      //converts string into decimal number to hundredth place setting
 expenseFloat = parseFloat(userExpenses).toFixed(2);   //converts string into decimal number to hundredth place setting
 percentFloat = parseFloat(userPercent).toFixed(2);    //converts string into decimal number to hundredth place setting
