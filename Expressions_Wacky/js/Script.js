@@ -22,3 +22,11 @@ madlibArray[0] = prompt("Please enter an Adverb \n(Describes an Action. Ex: Quic
 console.log(madlibArray[0]);
 alert("Test on array variable " + madlibArray[0]);
 
+/*As we finish up our second week in our web programming fundamentals
+class it is becoming apparent how much fun this class is. For me, it
+has been several years since I have written anything in code. Not only
+has this class been nostalgic but also engaging. I was pleasantly
+surprised at the eagerness of my fellow classmates on their interaction
+and helpfulness with one another. Moving forward I continue to have
+high hopes for what has yet to come.
+    */
