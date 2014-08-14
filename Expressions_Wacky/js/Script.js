@@ -9,8 +9,8 @@ Assignment:  Expressions - Wacky
 var userName = prompt("Please enter your name:");
 console.log(userName);
 alert("Welcome " + userName + ". \n Let's have some fun with MadLibs!");
-//var madlibArray = new Array ();
-//madlibArray[0] = prompt("Please enter an Adverb:");
+var madlibArray = new Array ();
+madlibArray[0] = prompt("Please enter an Adverb:");
 //madlibArray[1] = prompt("Please enter an Adjective:");
 //madlibArray[2] = prompt("Please enter a Number:");
 //madlibArray[3] = prompt("Please enter a Noun:");
@@ -19,5 +19,5 @@ alert("Welcome " + userName + ". \n Let's have some fun with MadLibs!");
 //madlibArray[6] = prompt("Please enter an Adverb:");
 //madlibArray[7] = prompt("Please enter a Noun:");
 
-//console.log(madlibArray[0,1,2,3,4,5,6,7]);
+console.log(madlibArray[0]);
 
