@@ -18,6 +18,8 @@ expenseFloat = parseFloat(userExpenses).toFixed(2);
 percentFloat = parseFloat(userPercent).toFixed(2);
 console.log("The users income is reported as: $" + incomeFloat);
 console.log("The users expenses is reported as: $" + expenseFloat);
-console.log("The users percentage of savings is reported as: " + percentFloat + "%");  n
-
+console.log("The users percentage of savings is reported as: " + percentFloat + "%");
+var userSavings   = (percentFloat / 100) * incomeFloat;
+var userIncomeAdj = incomeFloat - userSavings;
+var userFinance   = (expenseFloat - userIncomeAdj) * -1;   
 
