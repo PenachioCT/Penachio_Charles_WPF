@@ -28,3 +28,6 @@ financeFloat = userFinance.toFixed(2);
 console.log("The user will save $" + savingsFloat + " per month.");
 console.log("The users adjust monthly income is: $" + incomeadjFloat);
 console.log("The user will have a balance of:  $" + financeFloat + " after paying bills.");
+alert("Based on your desired savings percentage of " + percentFloat + "%, \nyou will be able to save $" + savingsFloat + " per month.");
+alert("You're adjusted monthly income is now $" + incomeadjFloat + ".");
+alert("After paying your monthly expenses you have  $"  + financeFloat + " available to spend.");
