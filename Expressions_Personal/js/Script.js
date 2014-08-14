@@ -22,6 +22,6 @@ console.log("The users percentage of savings is reported as: " + percentFloat + 
 var userSavings   = (percentFloat / 100) * incomeFloat;
 var userIncomeAdj = incomeFloat - userSavings;
 var userFinance   = (expenseFloat - userIncomeAdj) * -1;
-savingsFloat = userSavings;
-incomeadjFloat = userIncomeAdj;
-financeFloat = userFinance;
+savingsFloat = userSavings.toFixed(2);
+incomeadjFloat = userIncomeAdj.toFixed(2);
+financeFloat = userFinance.toFixed(2);
