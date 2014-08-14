@@ -29,6 +29,7 @@ var userFinance   = (expenseFloat - userIncomeAdj) * -1;   //calculates amount o
 savingsFloat = userSavings.toFixed(2);       //adjust decimal to hundredth place setting
 incomeadjFloat = userIncomeAdj.toFixed(2);   //adjust decimal to hundredth place setting
 financeFloat = userFinance.toFixed(2);       //adjust decimal to hundredth place setting
+
 console.log("The user will save $" + savingsFloat + " per month.");      //displays the calculation to the console for amount of monthly savings based on percentage rate
 console.log("The users adjust monthly income is: $" + incomeadjFloat);   //displays the calculation to the console for the adjusted income after savings has been removed
 console.log("The user will have a balance of:  $" + financeFloat + " after paying bills.");  //displays the calculation to the console for the amount left over after paying bills
