@@ -7,7 +7,7 @@ Expressions - Personal
 
 //We will be helping someone calculate their monthly finances.
 
-
+var userName = prompt("Please enter your name: ");
 
 
 
