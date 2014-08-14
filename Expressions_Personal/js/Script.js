@@ -17,6 +17,7 @@ var userPercent  = prompt("Please enter a percentage of your monthly income you 
 incomeFloat = parseFloat(userIncome).toFixed(2);      //converts string into decimal number to hundredth place setting
 expenseFloat = parseFloat(userExpenses).toFixed(2);   //converts string into decimal number to hundredth place setting
 percentFloat = parseFloat(userPercent).toFixed(2);    //converts string into decimal number to hundredth place setting
+
 console.log("The users income is reported as: $" + incomeFloat);      //displays the input saved in incomeFloat to the console for verification
 console.log("The users expenses is reported as: $" + expenseFloat);   //display the input saved in expenseFloat to the console for verification
 console.log("The users percentage of savings is reported as: " + percentFloat + "%");  //display the input  saved in percentFloat to the console for verification
