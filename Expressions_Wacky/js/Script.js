@@ -7,7 +7,8 @@ Assignment:  Expressions - Wacky
 
 //Array fun with Mad Libs
 var userName = prompt("Please enter your name:");
-
+console.log(userName);
+alert("Welcome " + userName ". \n Let's have some fun with MadLibs!");
 
 
 
