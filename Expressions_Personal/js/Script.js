@@ -16,5 +16,8 @@ var userPercent  = prompt("Please enter a percentage of your monthly income you 
 incomeFloat = parseFloat(userIncome).toFixed(2);
 expenseFloat = parseFloat(userExpenses).toFixed(2);
 percentFloat = parseFloat(userPercent).toFixed(2);
+console.log("The users income is reported as: $" + incomeFloat);
+console.log("The users expenses is reported as: $" + expenseFloat);
+console.log("The users percentage of savings is reported as: " + percentFloat + "%");  n
 
 
