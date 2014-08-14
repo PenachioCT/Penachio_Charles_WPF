@@ -6,6 +6,7 @@ Assignment:  Expressions - Wacky
  */
 
 //Array fun with Mad Libs
+var userName = prompt("Please enter your name:");
 
 
 
