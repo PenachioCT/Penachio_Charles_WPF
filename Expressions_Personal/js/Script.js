@@ -25,6 +25,7 @@ console.log("The users percentage of savings is reported as: " + percentFloat + 
 var userSavings   = (percentFloat / 100) * incomeFloat;    //turns percent given into a decimal and applied to income to calculate amount of monthly savings
 var userIncomeAdj = incomeFloat - userSavings;             //adjusts available monthly income balance by removing amount saved by percentage disbursal
 var userFinance   = (expenseFloat - userIncomeAdj) * -1;   //calculates amount of remaining balance user has once expenses are taken from income
+
 savingsFloat = userSavings.toFixed(2);       //adjust decimal to hundredth place setting
 incomeadjFloat = userIncomeAdj.toFixed(2);   //adjust decimal to hundredth place setting
 financeFloat = userFinance.toFixed(2);       //adjust decimal to hundredth place setting
