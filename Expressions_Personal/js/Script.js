@@ -9,6 +9,7 @@
 var userName = prompt("Please enter your name: ");  //Ask user for their name and saves the input
 console.log("The users name is reported as: " + userName);  //Displays the input saved in userName to the console for verification
 alert("Hello, " + userName + ".  \nLet's calculate your monthly income and expenses.");  //Prompt used to greet user once their name is known
+
 var userIncome   = prompt("Please enter your monthly income (in dollars):");    //asks user for their monthly income and saves the input
 var userExpenses = prompt("Please enter your monthly expenses (in dollars):");  //asks user for their monthly expense and save the input
 var userPercent  = prompt("Please enter a percentage of your monthly income you would like to put into savings:");  //asks user for a percentage they would like to save of their monthly income
