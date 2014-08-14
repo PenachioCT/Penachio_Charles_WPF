@@ -30,3 +30,16 @@ surprised at the eagerness of my fellow classmates on their interaction
 and helpfulness with one another. Moving forward I continue to have
 high hopes for what has yet to come.
     */
+
+/*
+ adjective  describes something (Green, Squishy, Cute)
+ adverb  describs an action (Quickly, Carefully, Silently)
+ noun  person place or thing (Car, House, Child.)
+ plural noun  people places or things (Cars, Houses, Children.)
+ verb  An action (Run, Jump, Swim)
+ excalamation  (Wow!, Oh!, Yuck!)
+ number  (5, 223, 16.5)
+ color  (Red, Green, Blue)
+ name  (Bill, Fred, Lisa)
+
+ */
