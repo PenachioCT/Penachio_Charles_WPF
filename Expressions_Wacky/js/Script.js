@@ -19,7 +19,7 @@ madlibArray[5] = prompt("Please enter an Adjective:");
 madlibArray[6] = prompt("Please enter an Adverb:");
 madlibArray[7] = prompt("Please enter a Noun:");
 
-console.log(madlibArray[0]);
+console.log(madlibArray[0,1,2,3,4,5,6,7]);
 alert("Test on array variable " + madlibArray[0]);
 
 /*As we finish up our second week in our web programming fundamentals
