@@ -20,4 +20,5 @@ madlibArray[0] = prompt("Please enter an Adverb \n(Describes an Action. Ex: Quic
 //madlibArray[7] = prompt("Please enter a Noun:");
 
 console.log(madlibArray[0]);
+alert("Test on array variable " + madlibArray[0]);
 
