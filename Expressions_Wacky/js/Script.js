@@ -10,5 +10,6 @@ var userName = prompt("Please enter your name:");
 console.log(userName);
 alert("Welcome " + userName ". \n Let's have some fun with MadLibs!");
 var madlibArray = new Array ();
+madlibArray[0] = prompt("Please enter an Adjective:");
 
 
