@@ -30,14 +30,12 @@ console.log(madlibArray[5]);
 console.log(madlibArray[6]);
 console.log(madlibArray[7]);
 
-alert("Test on array variable " + madlibArray[0]);
-
-/*As we finish up our second week in our web programming fundamentals
-class it is becoming apparent how much fun this class is. For me, it
-has been several years since I have written anything in code. Not only
-has this class been nostalgic but also engaging. I was pleasantly
-surprised at the eagerness of my fellow classmates on their interaction
-and helpfulness with one another. Moving forward I continue to have
-high hopes for what has yet to come.
-    */
+alert("Calculating...");
+alert("As we finish up our second week in our web programming fundamentals\n " +
+    "class it is becoming apparent how much fun this class is.  For me, it\n" +
+    "has been several years since I have written anything in code.  Not only\n" +
+    "has this class been nostalgic but also engaging.  I was pleasantly\n" +
+    "surprised at the eagerness of my fellow classmates on their interaction\n" +
+    "and helpfulness with one another.  Moving forward I contine to have\n" +
+    "high hopes for what has yet to come.");
 
