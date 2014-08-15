@@ -31,11 +31,11 @@ console.log(madlibArray[6]);
 console.log(madlibArray[7]);
 
 alert("Calculating...");
-alert("As we finish up our second week in our web programming fundamentals\n " +
-    "class it is becoming apparent how much fun this class is.  For me, it\n" +
-    "has been several years since I have written anything in code.  Not only\n" +
-    "has this class been nostalgic but also engaging.  I was pleasantly\n" +
-    "surprised at the eagerness of my fellow classmates on their interaction\n" +
-    "and helpfulness with one another.  Moving forward I contine to have\n" +
+alert("As we " + madlibArray[0] + " up our second week in our web programming fundamentals\n " +
+    "class it is becoming " + madlibArray[1] + " how much fun this class is.  For me, it\n" +
+    "has been " + madlibArray[2] + " years since I have written anything in code.  Not only\n" +
+    "has this " + madlibArray[3] + " been nostalgic but also " + madlibArray[4] + ".  I was pleasantly\n" +
+    madlibArray[5] + " at the eagerness of my fellow classmates on their " + madlibArray[6] + "\n" +
+    "and helpfulness with one " + madlibArray[7] + ".  Moving forward I continue to have\n" +
     "high hopes for what has yet to come.");
 
