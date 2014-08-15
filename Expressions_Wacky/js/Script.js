@@ -9,7 +9,7 @@ Assignment:  Expressions - Wacky
 var userName = prompt("Please enter your name:");
 
 console.log(userName);
-alert("Welcome " + userName + ". \n Let's have some fun with MadLibs!");
+alert("Welcome " + userName + ". \n Let's have some fun with Mad Libs!");
 
 var madlibArray = new Array ();
 madlibArray[0] = prompt("Please enter an Adverb \n(Describes an action - Ex: Quickly, Carefully, Silently):");
@@ -30,12 +30,20 @@ console.log(madlibArray[5]);
 console.log(madlibArray[6]);
 console.log(madlibArray[7]);
 
+console.log("As we " + madlibArray[0] + " up our second week in our web programming fundamentals " +
+    "class it is becoming " + madlibArray[1] + " how much fun this class is.  For me, it " +
+    "has been " + madlibArray[2] + " years since I have written anything in code.  Not only " +
+    "has this " + madlibArray[3] + " been nostalgic but also " + madlibArray[4] + ".  I was pleasantly " +
+    madlibArray[5] + " at the eagerness of my fellow classmates on their " + madlibArray[6] + " " +
+    "and helpfulness with one " + madlibArray[7] + ".  Moving forward I continue to have " +
+    "high hopes for what has yet to come.");
+
 alert("Calculating...");
-alert("As we " + madlibArray[0] + " up our second week in our web programming fundamentals\n " +
-    "class it is becoming " + madlibArray[1] + " how much fun this class is.  For me, it\n" +
-    "has been " + madlibArray[2] + " years since I have written anything in code.  Not only\n" +
-    "has this " + madlibArray[3] + " been nostalgic but also " + madlibArray[4] + ".  I was pleasantly\n" +
-    madlibArray[5] + " at the eagerness of my fellow classmates on their " + madlibArray[6] + "\n" +
-    "and helpfulness with one " + madlibArray[7] + ".  Moving forward I continue to have\n" +
+alert("As we " + madlibArray[0] + " up our second week in our web programming fundamentals " +
+    "class it is becoming " + madlibArray[1] + " how much fun this class is.  For me, it " +
+    "has been " + madlibArray[2] + " years since I have written anything in code.  Not only " +
+    "has this " + madlibArray[3] + " been nostalgic but also " + madlibArray[4] + ".  I was pleasantly " +
+    madlibArray[5] + " at the eagerness of my fellow classmates on their " + madlibArray[6] + " " +
+    "and helpfulness with one " + madlibArray[7] + ".  Moving forward I continue to have " +
     "high hopes for what has yet to come.");
 
