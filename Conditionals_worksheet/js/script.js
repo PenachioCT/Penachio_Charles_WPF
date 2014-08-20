@@ -35,5 +35,21 @@ if(milRemain > nextGas){
 console.log("");    //Spacing between Group 1 & Group 2
 
 //Group 2:  Multiple Results - Check the Login
+var userName
+var userPass
+var correctName
+var correctPass
+
+if(){
+
+}else if(){
+
+}else{
+
+}
+
+//console.log("Welcome, userName!");
+//console.log("User not found.  Try again.");
+//console.log("Password does not match our records.");
 
 
