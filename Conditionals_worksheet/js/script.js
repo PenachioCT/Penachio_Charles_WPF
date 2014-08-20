@@ -32,6 +32,8 @@ if(milRemain > nextGas){
 }else{
     console.log("You only have " + gasRemain + " gallons of gas in your tank, better get gas now while you can!");
 }
+console.log("");    //Spacing between Group 1 & Group 2
 
+//Group 2:  Multiple Results - Check the Login
 
 
