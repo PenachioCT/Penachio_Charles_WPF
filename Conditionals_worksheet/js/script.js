@@ -15,17 +15,19 @@ if(compWeight >= 250){
     //message if competitor fails to meet the requirement to qualify
     console.log("The competitor needs to gain some weight!");
 }
-console.log"\n";    //Spacing between Example & Group 1 Exercise
+console.log("");    //Spacing between Example & Group 1 Exercise
 
 //Group 1:  Expressions w/Conditionals - Last Chance for Gas!
-var gasEff      //in mpg
-var gasGauge    //in %
-var gasCap      //in gallons
+var gasEff    = 30;    //in mpg
+var gasGauge  = 50     //in %
+var gasCap    = 20;    //in gallons
 
-if(){
+var gasRemain = gasCap * (gasGauge/100);
+console.log(gasRemain);
+//if(){
     //can you make it across the desert w/current fuel?  next gas station in 200 mi.  stop, yes or no?
 
-}
+//}
 
-console.log("Yes, you can make it without stopping for gas!");
-console.log("You only 'X' gallons of gas in your tank, better get gas now while you can!");
+//console.log("Yes, you can make it without stopping for gas!");
+//console.log("You only 'X' gallons of gas in your tank, better get gas now while you can!");
