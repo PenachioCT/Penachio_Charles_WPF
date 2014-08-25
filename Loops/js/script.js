@@ -7,3 +7,11 @@ while (b > 0){  //checks the condition
     b--;  //increments or decrements the index
 }
 
+console.log('------ Do While Loops ------');
+
+var c = 10;
+
+do{
+    console.log(c + ' kegs on the wall');
+    c--;
+}while (c > 0);
